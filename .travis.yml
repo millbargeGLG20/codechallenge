@@ -1,0 +1,5 @@
+language: java
+
+script:
+  - javac src/Sort.java
+  - CLASSPATH=src java Sort file.txt true
